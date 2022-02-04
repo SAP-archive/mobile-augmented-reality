@@ -1,0 +1,61 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "AnyCodable",
+        "repositoryURL": "https://github.com/Flight-School/AnyCodable.git",
+        "state": {
+          "branch": null,
+          "revision": "b1a7a8a6186f2fcb28f7bda67cfc545de48b3c80",
+          "version": "0.6.2"
+        }
+      },
+      {
+        "package": "cloud-sdk-ios",
+        "repositoryURL": "https://github.com/SAP/cloud-sdk-ios",
+        "state": {
+          "branch": null,
+          "revision": "d7057b09fb199637cd0fb488dd1c89006d885ba6",
+          "version": "6.1.2-xcfrwk"
+        }
+      },
+      {
+        "package": "FioriSwiftUI",
+        "repositoryURL": "https://github.com/SAP/cloud-sdk-ios-fiori.git",
+        "state": {
+          "branch": null,
+          "revision": "6f3ad8491dbacbad22b6ea8bd51b99f0e778e0d9",
+          "version": "2.0.1"
+        }
+      },
+      {
+        "package": "FioriAR",
+        "repositoryURL": "https://github.com/SAP/cloud-sdk-ios-fiori-ar.git",
+        "state": {
+          "branch": null,
+          "revision": "45c7f40219f4e061af3a609d652f420b68bb3681",
+          "version": "2.0.0"
+        }
+      },
+      {
+        "package": "ObservableArray",
+        "repositoryURL": "https://github.com/sstadelman/observable-array.git",
+        "state": {
+          "branch": null,
+          "revision": "8cc76410f71b6653897f974b453e9a15ef8f96b4",
+          "version": "1.2.0"
+        }
+      },
+      {
+        "package": "Zip",
+        "repositoryURL": "https://github.com/MarcoEidinger/Zip.git",
+        "state": {
+          "branch": null,
+          "revision": "059e7346082d02de16220cd79df7db18ddeba8c3",
+          "version": "2.1.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE3A58A727A01B790032A543 /* ARSceneListContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3A58A627A01B790032A543 /* ARSceneListContentView.swift */; };
+		BE3A58A927A14A3F0032A543 /* ARScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3A58A827A14A3F0032A543 /* ARScene.swift */; };
+		BE3A58AB27A160300032A543 /* UserDefaultsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3A58AA27A160300032A543 /* UserDefaultsHandler.swift */; };
+		BE6867922796E02900EC1BC4 /* FioriARSceneExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6867912796E02900EC1BC4 /* FioriARSceneExampleApp.swift */; };
+		BE6867942796E02900EC1BC4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6867932796E02900EC1BC4 /* ContentView.swift */; };
+		BE6867962796E02B00EC1BC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE6867952796E02B00EC1BC4 /* Assets.xcassets */; };
+		BE6867992796E02B00EC1BC4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE6867982796E02B00EC1BC4 /* Preview Assets.xcassets */; };
+		BE6867A12796E04C00EC1BC4 /* FileManager+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6867A02796E04C00EC1BC4 /* FileManager+Extensions.swift */; };
+		BE6867A32796E05A00EC1BC4 /* SAPURLSession+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6867A22796E05A00EC1BC4 /* SAPURLSession+Extension.swift */; };
+		BE6867A62796E06D00EC1BC4 /* ExampleCardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6867A52796E06D00EC1BC4 /* ExampleCardItem.swift */; };
+		BE6867A82796E07A00EC1BC4 /* StringIdentifyingCardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6867A72796E07A00EC1BC4 /* StringIdentifyingCardItem.swift */; };
+		BE6867AB2796E0D100EC1BC4 /* FioriAR in Frameworks */ = {isa = PBXBuildFile; productRef = BE6867AA2796E0D100EC1BC4 /* FioriAR */; };
+		BE6867B02797058200EC1BC4 /* ARSceneAuthoringContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6867AF2797058200EC1BC4 /* ARSceneAuthoringContentView.swift */; };
+		BE6867B627970F3800EC1BC4 /* AuthenticationParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6867B527970F3800EC1BC4 /* AuthenticationParams.swift */; };
+		BEB0883E2797FDB1004A58A9 /* qrImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BEB0883D2797FDB1004A58A9 /* qrImage.png */; };
+		BEB088412797FDBA004A58A9 /* ExampleRC.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = BEB0883F2797FDBA004A58A9 /* ExampleRC.rcproject */; };
+		BEB088422797FDBA004A58A9 /* ExampleRC.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BEB088402797FDBA004A58A9 /* ExampleRC.usdz */; };
+		BEB088442797FEB7004A58A9 /* ARSceneContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB088432797FEB7004A58A9 /* ARSceneContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE3A58A627A01B790032A543 /* ARSceneListContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSceneListContentView.swift; sourceTree = "<group>"; };
+		BE3A58A827A14A3F0032A543 /* ARScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARScene.swift; sourceTree = "<group>"; };
+		BE3A58AA27A160300032A543 /* UserDefaultsHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsHandler.swift; sourceTree = "<group>"; };
+		BE68678E2796E02900EC1BC4 /* FioriARSceneExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FioriARSceneExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE6867912796E02900EC1BC4 /* FioriARSceneExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FioriARSceneExampleApp.swift; sourceTree = "<group>"; };
+		BE6867932796E02900EC1BC4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BE6867952796E02B00EC1BC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE6867982796E02B00EC1BC4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE6867A02796E04C00EC1BC4 /* FileManager+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+Extensions.swift"; sourceTree = "<group>"; };
+		BE6867A22796E05A00EC1BC4 /* SAPURLSession+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SAPURLSession+Extension.swift"; sourceTree = "<group>"; };
+		BE6867A52796E06D00EC1BC4 /* ExampleCardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleCardItem.swift; sourceTree = "<group>"; };
+		BE6867A72796E07A00EC1BC4 /* StringIdentifyingCardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringIdentifyingCardItem.swift; sourceTree = "<group>"; };
+		BE6867AF2797058200EC1BC4 /* ARSceneAuthoringContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSceneAuthoringContentView.swift; sourceTree = "<group>"; };
+		BE6867B527970F3800EC1BC4 /* AuthenticationParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationParams.swift; sourceTree = "<group>"; };
+		BEB0883C2797242D004A58A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BEB0883D2797FDB1004A58A9 /* qrImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qrImage.png; sourceTree = "<group>"; };
+		BEB0883F2797FDBA004A58A9 /* ExampleRC.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = ExampleRC.rcproject; sourceTree = "<group>"; };
+		BEB088402797FDBA004A58A9 /* ExampleRC.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = ExampleRC.usdz; sourceTree = "<group>"; };
+		BEB088432797FEB7004A58A9 /* ARSceneContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSceneContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE68678B2796E02900EC1BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE6867AB2796E0D100EC1BC4 /* FioriAR in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE6867852796E02900EC1BC4 = {
+			isa = PBXGroup;
+			children = (
+				BE6867902796E02900EC1BC4 /* FioriARSceneExample */,
+				BE68678F2796E02900EC1BC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE68678F2796E02900EC1BC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE68678E2796E02900EC1BC4 /* FioriARSceneExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE6867902796E02900EC1BC4 /* FioriARSceneExample */ = {
+			isa = PBXGroup;
+			children = (
+				BEB0883C2797242D004A58A9 /* Info.plist */,
+				BE6867AC2796E17D00EC1BC4 /* Media */,
+				BE6867A42796E06000EC1BC4 /* Models */,
+				BE68679F2796E03800EC1BC4 /* Utils */,
+				BE6867912796E02900EC1BC4 /* FioriARSceneExampleApp.swift */,
+				BE6867932796E02900EC1BC4 /* ContentView.swift */,
+				BE6867952796E02B00EC1BC4 /* Assets.xcassets */,
+				BE6867972796E02B00EC1BC4 /* Preview Content */,
+				BE6867AF2797058200EC1BC4 /* ARSceneAuthoringContentView.swift */,
+				BEB088432797FEB7004A58A9 /* ARSceneContentView.swift */,
+				BE3A58A627A01B790032A543 /* ARSceneListContentView.swift */,
+			);
+			path = FioriARSceneExample;
+			sourceTree = "<group>";
+		};
+		BE6867972796E02B00EC1BC4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BE6867982796E02B00EC1BC4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BE68679F2796E03800EC1BC4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BE6867A02796E04C00EC1BC4 /* FileManager+Extensions.swift */,
+				BE6867A22796E05A00EC1BC4 /* SAPURLSession+Extension.swift */,
+				BE6867B527970F3800EC1BC4 /* AuthenticationParams.swift */,
+				BE3A58AA27A160300032A543 /* UserDefaultsHandler.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BE6867A42796E06000EC1BC4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BE6867A52796E06D00EC1BC4 /* ExampleCardItem.swift */,
+				BE6867A72796E07A00EC1BC4 /* StringIdentifyingCardItem.swift */,
+				BE3A58A827A14A3F0032A543 /* ARScene.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BE6867AC2796E17D00EC1BC4 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				BE6867AE2796F1B300EC1BC4 /* RealityComposer */,
+				BE6867AD2796F1A800EC1BC4 /* Images */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		BE6867AD2796F1A800EC1BC4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BEB0883D2797FDB1004A58A9 /* qrImage.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		BE6867AE2796F1B300EC1BC4 /* RealityComposer */ = {
+			isa = PBXGroup;
+			children = (
+				BEB0883F2797FDBA004A58A9 /* ExampleRC.rcproject */,
+				BEB088402797FDBA004A58A9 /* ExampleRC.usdz */,
+			);
+			path = RealityComposer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE68678D2796E02900EC1BC4 /* FioriARSceneExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE68679C2796E02B00EC1BC4 /* Build configuration list for PBXNativeTarget "FioriARSceneExample" */;
+			buildPhases = (
+				BE68678A2796E02900EC1BC4 /* Sources */,
+				BE68678B2796E02900EC1BC4 /* Frameworks */,
+				BE68678C2796E02900EC1BC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FioriARSceneExample;
+			packageProductDependencies = (
+				BE6867AA2796E0D100EC1BC4 /* FioriAR */,
+			);
+			productName = FioriARSceneExample;
+			productReference = BE68678E2796E02900EC1BC4 /* FioriARSceneExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE6867862796E02900EC1BC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					BE68678D2796E02900EC1BC4 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = BE6867892796E02900EC1BC4 /* Build configuration list for PBXProject "FioriARSceneExample" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE6867852796E02900EC1BC4;
+			packageReferences = (
+				BE6867A92796E0D100EC1BC4 /* XCRemoteSwiftPackageReference "cloud-sdk-ios-fiori-ar" */,
+			);
+			productRefGroup = BE68678F2796E02900EC1BC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE68678D2796E02900EC1BC4 /* FioriARSceneExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE68678C2796E02900EC1BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE6867992796E02B00EC1BC4 /* Preview Assets.xcassets in Resources */,
+				BE6867962796E02B00EC1BC4 /* Assets.xcassets in Resources */,
+				BEB0883E2797FDB1004A58A9 /* qrImage.png in Resources */,
+				BEB088422797FDBA004A58A9 /* ExampleRC.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE68678A2796E02900EC1BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE6867942796E02900EC1BC4 /* ContentView.swift in Sources */,
+				BEB088442797FEB7004A58A9 /* ARSceneContentView.swift in Sources */,
+				BE3A58A727A01B790032A543 /* ARSceneListContentView.swift in Sources */,
+				BE6867B627970F3800EC1BC4 /* AuthenticationParams.swift in Sources */,
+				BE6867922796E02900EC1BC4 /* FioriARSceneExampleApp.swift in Sources */,
+				BE3A58A927A14A3F0032A543 /* ARScene.swift in Sources */,
+				BE6867A12796E04C00EC1BC4 /* FileManager+Extensions.swift in Sources */,
+				BE6867A32796E05A00EC1BC4 /* SAPURLSession+Extension.swift in Sources */,
+				BE6867A82796E07A00EC1BC4 /* StringIdentifyingCardItem.swift in Sources */,
+				BE6867B02797058200EC1BC4 /* ARSceneAuthoringContentView.swift in Sources */,
+				BE6867A62796E06D00EC1BC4 /* ExampleCardItem.swift in Sources */,
+				BEB088412797FDBA004A58A9 /* ExampleRC.rcproject in Sources */,
+				BE3A58AB27A160300032A543 /* UserDefaultsHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BE68679A2796E02B00EC1BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE68679B2796E02B00EC1BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE68679D2796E02B00EC1BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FioriARSceneExample/Preview Content\"";
+				DEVELOPMENT_TEAM = AMW5B25QXP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FioriARSceneExample/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Use Camera for AR Examples";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FioriARSceneExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE68679E2796E02B00EC1BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FioriARSceneExample/Preview Content\"";
+				DEVELOPMENT_TEAM = AMW5B25QXP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FioriARSceneExample/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Use Camera for AR Examples";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FioriARSceneExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE6867892796E02900EC1BC4 /* Build configuration list for PBXProject "FioriARSceneExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE68679A2796E02B00EC1BC4 /* Debug */,
+				BE68679B2796E02B00EC1BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE68679C2796E02B00EC1BC4 /* Build configuration list for PBXNativeTarget "FioriARSceneExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE68679D2796E02B00EC1BC4 /* Debug */,
+				BE68679E2796E02B00EC1BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BE6867A92796E0D100EC1BC4 /* XCRemoteSwiftPackageReference "cloud-sdk-ios-fiori-ar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SAP/cloud-sdk-ios-fiori-ar.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BE6867AA2796E0D100EC1BC4 /* FioriAR */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BE6867A92796E0D100EC1BC4 /* XCRemoteSwiftPackageReference "cloud-sdk-ios-fiori-ar" */;
+			productName = FioriAR;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BE6867862796E02900EC1BC4 /* Project object */;
+}
