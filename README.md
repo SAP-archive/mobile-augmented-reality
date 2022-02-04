@@ -26,7 +26,7 @@ To run this project you need to full-fill the following requirements:
 
 3. Add a valid Development Team in order to run the app.
 
-4. Lookup the OAuth values on SAP Mobile Services and replace them with the placeholder in the Swift file `AuthenticationParams`.
+4. Lookup the OAuth values on SAP Mobile Services and replace them with the placeholder in the Swift file [AuthenticationParams](https://github.com/SAP-samples/mobile-augmented-reality/blob/main/FioriARSceneExample/FioriARSceneExample/Utils/AuthenticationParams.swift).
 
 > NOTE: If you don't know how to setup your project environment on SAP Mobile Services, please refer to the corresponding tutorial mentioned above.
 
