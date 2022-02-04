@@ -2,7 +2,7 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/REPO-NAME)](https://api.reuse.software/info/github.com/SAP-samples/REPO-NAME)
 -->
 
-# [FioriAR Mobile Augmented Reality - Tutorial Sample Project]
+# FioriAR Mobile Augmented Reality - Tutorial Sample Project
 
 ## Description
 
